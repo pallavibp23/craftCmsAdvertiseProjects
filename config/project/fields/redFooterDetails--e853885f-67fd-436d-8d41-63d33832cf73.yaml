@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: redFooterDetails
+instructions: null
+name: 'Red Footer Details'
+searchable: false
+settings:
+  createButtonLabel: 'New Red footer entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 2b04d9f2-7cef-4305-9006-13468677fb50 # Red Footer
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

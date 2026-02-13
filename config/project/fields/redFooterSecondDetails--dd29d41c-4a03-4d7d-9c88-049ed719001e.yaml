@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: redFooterSecondDetails
+instructions: null
+name: 'Red Footer Second Details'
+searchable: false
+settings:
+  createButtonLabel: 'Add Second entry details'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - c84b7fb3-bdff-48e9-bad9-fcd46c34383a # Red Footer Second entry
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

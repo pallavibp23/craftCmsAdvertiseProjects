@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: heroDetails
+instructions: null
+name: 'hero Details'
+searchable: false
+settings:
+  createButtonLabel: 'Hero Section Entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 2b9e4a52-82a1-4dcb-8b43-25b4e8d75c9b # Hero Fields
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

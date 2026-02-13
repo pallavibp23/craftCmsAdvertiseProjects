@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: advertise
+primary: true
+siteGroup: 081f3b2f-b415-4711-b34b-67e5a5000e04 # advertise
+sortOrder: 1

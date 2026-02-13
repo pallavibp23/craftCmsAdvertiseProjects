@@ -1,0 +1,32 @@
+columnSuffix: null
+handle: heroSubtext
+instructions: null
+name: 'Hero Subtext'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  characterLimit: null
+  ckeConfig: e120ce75-2bd8-4a96-9fe7-b5b8faacb2ad # Simple
+  createButtonLabel: null
+  defaultTransform: null
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 2b9e4a52-82a1-4dcb-8b43-25b4e8d75c9b # Hero Fields
+  expandEntryButtons: true
+  fullGraphqlData: true
+  parseEmbeds: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

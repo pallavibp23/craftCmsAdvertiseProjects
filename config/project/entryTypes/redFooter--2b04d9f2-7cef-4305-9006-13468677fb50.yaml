@@ -1,0 +1,74 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  5b7ed544-a717-4f76-a657-2e53a49ad390:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-02-02T10:55:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 405faaa1-74e9-4ac2-b942-bbb555eb8402 # Red Footer links
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1205c42a-c5e6-4655-9ca2-4b0d4393a368
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-02T10:55:56+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 5a09b5b2-89b8-4cca-94bf-4ab44e287a40 # Red Footer Text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 69d63a8d-2f9a-4f30-a8c6-1258a8c8ba39
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-02T10:56:48+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: e853885f-67fd-436d-8d41-63d33832cf73 # Red Footer Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d7598f53-f3f8-4767-a10a-46ff86088a3f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 94acf14c-0318-48e8-be0f-fdf8627bdef5
+        userCondition: null
+    thumbFieldKey: null
+handle: redFooter
+hasTitleField: false
+icon: null
+name: 'Red Footer'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

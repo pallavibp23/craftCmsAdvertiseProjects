@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: headerOurNetworkThirdDetails
+instructions: null
+name: 'Header Our Network Third Details'
+searchable: false
+settings:
+  createButtonLabel: 'Add Our Network Third Entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 39a385b9-c06e-4eda-8f11-33e756e66f52 # header our network third entry
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

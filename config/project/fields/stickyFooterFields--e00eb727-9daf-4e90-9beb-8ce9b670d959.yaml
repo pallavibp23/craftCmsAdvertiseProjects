@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: stickyFooterFields
+instructions: null
+name: 'Sticky Footer Fields'
+searchable: false
+settings:
+  createButtonLabel: 'Sticky Footer Entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - bada02ca-1b8a-4a20-aec7-eb0feb6ccfb2 # STicky Footer
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

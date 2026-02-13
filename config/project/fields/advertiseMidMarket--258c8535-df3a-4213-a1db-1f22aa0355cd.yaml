@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: advertiseMidMarket
+instructions: null
+name: Advertise_mid_market
+searchable: false
+settings:
+  createButtonLabel: 'Advertise mid section entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - c4c6f0b9-0aba-402e-a6b4-75e3de13d767 # Advertise_midrow_entry
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

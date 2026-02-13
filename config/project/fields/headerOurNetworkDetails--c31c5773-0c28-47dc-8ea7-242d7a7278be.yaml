@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: headerOurNetworkDetails
+instructions: null
+name: 'Header Our Network Details'
+searchable: false
+settings:
+  createButtonLabel: 'Add Our Network Details'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - c2bf8300-9b9e-44f6-bc3d-b353f9757385 # header our network entry
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

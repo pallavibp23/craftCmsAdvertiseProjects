@@ -1,0 +1,90 @@
+dateModified: 1770125499
+email:
+  fromEmail: pallavi@targetclose.com
+  fromName: advertise
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assetBaseUrl:
+    hasUrls: true
+    name: ASSET_BASE_URL
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    1f02938c-e395-4f4f-a09a-1679a49ba27f: 'Red footer aarp image' # Red footer aarp image
+    1f8681b2-8b84-4e72-a83c-57b61d388a1d: 'Red Footer Second text' # Red Footer Second text
+    2b04d9f2-7cef-4305-9006-13468677fb50: 'Red Footer' # Red Footer
+    2b9e4a52-82a1-4dcb-8b43-25b4e8d75c9b: 'Hero Fields' # Hero Fields
+    3dae88f1-2d29-48c6-a854-0e120374ae9e: 'Red Footer Image' # Red Footer Image
+    3f349278-e8b7-4406-8fef-d9d920e81fbb: 'Media Advertising Entry' # Media Advertising Entry
+    4ca28500-ae9e-4de9-9e9d-f24a68cd4690: Advertiseimage_Title # Advertiseimage_Title
+    4d73d40b-81ea-41c7-9ab2-015fcd23db38: 'Header Our Network Links' # Header Our Network Links
+    5a09b5b2-89b8-4cca-94bf-4ab44e287a40: 'Red Footer Text' # Red Footer Text
+    5ccdc59d-b03d-45d7-99db-0ab1eee84252: 'Media Advertising Network Text' # Media Advertising Network Text
+    6faf0402-3e78-4423-a460-c26065e6d18c: advertise # advertise
+    7d37f590-5552-4d74-9de1-1164f8c4ae22: 'Hero Subheading' # Hero Subheading
+    7db60c7a-729e-4f5e-a506-25c2d6843a15: 'Header Our Network Third Text' # Header Our Network Third Text
+    8b68ffb1-4be9-47e1-b10a-3db109c18e3e: 'Header Our Network Sec Text' # Header Our Network Sec Text
+    24ff8a2d-c634-4c5d-9250-8c8a2789dd3a: 'Sticky Footer Button' # Sticky Footer Button
+    28a2b87e-5053-4f6b-86e7-c65fff66b218: 'Hero Title' # Hero Title
+    39a385b9-c06e-4eda-8f11-33e756e66f52: 'header our network third entry' # header our network third entry
+    41ef1a64-bd55-4891-b74b-daed9bc6d73e: 'Header Our Network Third Details' # Header Our Network Third Details
+    69dfb822-b451-46de-b31b-fe292950c2c4: 'Red Footer Image LInk' # Red Footer Image LInk
+    081f3b2f-b415-4711-b34b-67e5a5000e04: advertise # advertise
+    155fbe6b-a130-4244-8876-05e99cba9cff: 'Media Advertising Network Reach Link' # Media Advertising Network Reach Link
+    250a84d6-649b-4b04-86f5-6237c9c2a8b6: 'Sticky footer header' # Sticky footer header
+    258c8535-df3a-4213-a1db-1f22aa0355cd: Advertise_mid_market # Advertise_mid_market
+    405faaa1-74e9-4ac2-b942-bbb555eb8402: 'Red Footer links' # Red Footer links
+    498f6188-e21f-45ca-9112-79ca12b3f788: Advertising_Link # Advertising_Link
+    601f8ba4-bf88-4b56-b7ae-a0968e6e05bc: Advertising_text # Advertising_text
+    772c3dbc-ec77-45b0-8bb4-de4e816a1965: 'Red Footer Second links' # Red Footer Second links
+    1045a570-7d9d-4911-874c-d20ad6954205: 'Red Footer Image Details' # Red Footer Image Details
+    1495d5b7-b977-4af9-9907-2ea9b7df70da: 'Media Advertising Network Heading' # Media Advertising Network Heading
+    90551fb3-d9aa-4f7a-90f8-311352e6b786: 'Media Advertising Network Details' # Media Advertising Network Details
+    92574e93-e45d-4bb1-8f99-cee3114b51e2: 'header our network sec entry' # header our network sec entry
+    0275274d-2c7a-41c9-8ae5-5f9c1fd3564b: Advertise_market_section # Advertise_market_section
+    b750854e-7871-4f5d-9413-df01f35c6c41: Advertising_market # Advertising_market
+    bada02ca-1b8a-4a20-aec7-eb0feb6ccfb2: 'STicky Footer' # STicky Footer
+    bfbeeaf5-824a-473b-b093-09b69820ca50: 'Red Footer alt text' # Red Footer alt text
+    c2bf8300-9b9e-44f6-bc3d-b353f9757385: 'header our network entry' # header our network entry
+    c4c6f0b9-0aba-402e-a6b4-75e3de13d767: Advertise_midrow_entry # Advertise_midrow_entry
+    c31c5773-0c28-47dc-8ea7-242d7a7278be: 'Header Our Network Details' # Header Our Network Details
+    c84b7fb3-bdff-48e9-bad9-fcd46c34383a: 'Red Footer Second entry' # Red Footer Second entry
+    c8303fd4-3db8-4194-8534-aee5011a99cb: 'Sticky Footer Subtext' # Sticky Footer Subtext
+    c88972a0-e83d-4b26-8410-3c39c1f84466: 'hero Details' # hero Details
+    d1478e98-f1e4-4f9c-a415-468fab81db41: 'Header Our Network Text' # Header Our Network Text
+    d1277624-223d-496f-985e-22e0e18eed34: Home # Home
+    dba14e60-8a75-48c8-9869-ee400d9be07e: 'Media Advertising Network Reach Text' # Media Advertising Network Reach Text
+    dd29d41c-4a03-4d7d-9c88-049ed719001e: 'Red Footer Second Details' # Red Footer Second Details
+    ddd539a0-1475-4402-b1f5-1a7f53f3c25e: 'Header Our Network Sec Details' # Header Our Network Sec Details
+    df8d8880-9bb7-4c12-bc9a-8dd92f606b02: Uploads # Uploads
+    e00eb727-9daf-4e90-9beb-8ce9b670d959: 'Sticky Footer Fields' # Sticky Footer Fields
+    e120ce75-2bd8-4a96-9fe7-b5b8faacb2ad: Simple # Simple
+    e186cd37-6620-4985-a6c4-393a2b54115c: Home # Home
+    e853885f-67fd-436d-8d41-63d33832cf73: 'Red Footer Details' # Red Footer Details
+    eb465709-0825-4262-9547-b9e4cd56bd52: 'Hero Subtext' # Hero Subtext
+    ff84c699-85ed-49ea-9144-45bf93d31b38: Advertising_image # Advertising_image
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  redactor-tweaks:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: advertise
+  schemaVersion: 5.9.0.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

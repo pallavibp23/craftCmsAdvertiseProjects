@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: mediaAdvertisingNetworkDetails
+instructions: null
+name: 'Media Advertising Network Details'
+searchable: false
+settings:
+  createButtonLabel: 'Add Media Advertising Details'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 3f349278-e8b7-4406-8fef-d9d920e81fbb # Media Advertising Entry
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

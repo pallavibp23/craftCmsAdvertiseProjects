@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: d1277624-223d-496f-985e-22e0e18eed34 # Home
+handle: home
+maxAuthors: 1
+name: Home
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  6faf0402-3e78-4423-a460-c26065e6d18c: # advertise
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

@@ -1,0 +1,106 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  28a95915-5746-4557-a769-c6f4a359402e:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-28T10:51:39+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 4ca28500-ae9e-4de9-9e9d-f24a68cd4690 # Advertiseimage_Title
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 632705b1-614e-4db2-8fdc-fd3e0deb6212
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T10:44:55+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 498f6188-e21f-45ca-9112-79ca12b3f788 # Advertising_Link
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14db173a-60ea-4be4-a92a-a7f77ea7c16a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-27T13:44:49+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: ff84c699-85ed-49ea-9144-45bf93d31b38 # Advertising_image
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c832be15-c5d5-479e-b1e6-9077fae95efb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-27T15:19:07+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 601f8ba4-bf88-4b56-b7ae-a0968e6e05bc # Advertising_text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a8d14f6-fede-4efe-a182-3e82c8e10d24
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-27T13:48:15+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: b750854e-7871-4f5d-9413-df01f35c6c41 # Advertising_market
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d29e9d68-d4dd-4c67-a09d-13a0f763d132
+            userCondition: null
+            warning: null
+            width: 100
+        name: MarketigSection
+        uid: 21bf7cfc-507a-4934-8116-92c32b6078c8
+        userCondition: null
+    thumbFieldKey: null
+handle: advertiseMarketSection
+hasTitleField: false
+icon: null
+name: Advertise_market_section
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

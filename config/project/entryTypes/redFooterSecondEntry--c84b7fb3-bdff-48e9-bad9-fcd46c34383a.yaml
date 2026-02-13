@@ -1,0 +1,74 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  79795bf4-bba7-4745-b5ba-95d9d86570ea:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-02-03T05:34:06+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 772c3dbc-ec77-45b0-8bb4-de4e816a1965 # Red Footer Second links
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b6a07d4-497d-4dfa-a4ad-5965ba20331d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T05:34:06+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 1f8681b2-8b84-4e72-a83c-57b61d388a1d # Red Footer Second text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7ecd953c-0709-4c5a-a16e-b2a398a9bf8d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T05:34:06+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: dd29d41c-4a03-4d7d-9c88-049ed719001e # Red Footer Second Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7aed2471-2102-4925-bb56-4ec624ad0299
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5ffa2a4e-4c32-4464-acd4-395a09208aa5
+        userCondition: null
+    thumbFieldKey: null
+handle: redFooterSecondEntry
+hasTitleField: false
+icon: null
+name: 'Red Footer Second entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

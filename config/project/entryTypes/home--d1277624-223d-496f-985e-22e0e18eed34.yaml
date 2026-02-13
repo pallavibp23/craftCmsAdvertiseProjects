@@ -1,0 +1,230 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  2ab689fc-9c14-4eb9-ab0d-9d64f5a21e39:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2026-01-28T12:03:32+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 8c151961-29da-4942-b5eb-b5adc86f080b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T12:29:20+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: c31c5773-0c28-47dc-8ea7-242d7a7278be # Header Our Network Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 529d5a83-0717-4259-9c5f-896b42f868f1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T12:47:49+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: ddd539a0-1475-4402-b1f5-1a7f53f3c25e # Header Our Network Sec Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b479d4bf-3cff-4c40-8735-3f8b8ed5491b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T12:47:49+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 41ef1a64-bd55-4891-b74b-daed9bc6d73e # Header Our Network Third Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0f82d793-f122-4f53-9e15-fde5b5e0e6de
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:07:24+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: c88972a0-e83d-4b26-8410-3c39c1f84466 # hero Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 70e16c95-be8a-44cb-9b92-0d460a0e364e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:07:24+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: b750854e-7871-4f5d-9413-df01f35c6c41 # Advertising_market
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ec3d2591-b711-4122-8107-d90f30f19079
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:26:31+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 258c8535-df3a-4213-a1db-1f22aa0355cd # Advertise_mid_market
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 52dc0cdf-b3e7-432d-ae85-fcf07f663ddf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T05:57:40+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 90551fb3-d9aa-4f7a-90f8-311352e6b786 # Media Advertising Network Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e813c5a8-c435-47b0-a286-78edd700e57f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-02T16:24:11+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 1045a570-7d9d-4911-874c-d20ad6954205 # Red Footer Image Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2bb59c72-85e5-49f4-9c25-47b7b2ed56dd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-02T10:57:45+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: e853885f-67fd-436d-8d41-63d33832cf73 # Red Footer Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 124dda67-d6a0-43cb-851b-657a75e24194
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T05:35:09+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: dd29d41c-4a03-4d7d-9c88-049ed719001e # Red Footer Second Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b8b59369-a2ee-4993-aa51-904832c09ce3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:56:07+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: e00eb727-9daf-4e90-9beb-8ce9b670d959 # Sticky Footer Fields
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2890e41d-5e4f-4227-883d-7e9b1e6c0446
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a53a04f5-ccb1-43e9-9ee1-00d15a51aff7
+        userCondition: null
+    thumbFieldKey: null
+handle: home
+hasTitleField: true
+icon: null
+name: Home
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

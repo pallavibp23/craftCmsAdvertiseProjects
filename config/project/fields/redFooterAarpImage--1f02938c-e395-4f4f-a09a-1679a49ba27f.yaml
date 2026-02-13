@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: redFooterAarpImage
+instructions: null
+name: 'Red footer aarp image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultPlacement: end
+  defaultUploadLocationSource: 'volume:df8d8880-9bb7-4c12-bc9a-8dd92f606b02' # Uploads
+  defaultUploadLocationSubpath: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:df8d8880-9bb7-4c12-bc9a-8dd92f606b02' # Uploads
+  restrictedLocationSubpath: null
+  selectionLabel: 'Upload footer image'
+  showSearchInput: true
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:df8d8880-9bb7-4c12-bc9a-8dd92f606b02' # Uploads
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Assets

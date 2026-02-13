@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: advertisingMarket
+instructions: null
+name: Advertising_market
+searchable: false
+settings:
+  createButtonLabel: 'Advertise market first row entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 0275274d-2c7a-41c9-8ae5-5f9c1fd3564b # Advertise_market_section
+        -
+          - group
+          - AdvrtiseMarketSection
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

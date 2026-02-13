@@ -1,0 +1,90 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  2136b64e-312a-4db9-8233-94d9edfae7b8:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-02-02T16:26:50+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 1045a570-7d9d-4911-874c-d20ad6954205 # Red Footer Image Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 41277ffa-7363-4177-9585-2804494cadf0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-02T16:26:50+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 69dfb822-b451-46de-b31b-fe292950c2c4 # Red Footer Image LInk
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe518038-e047-4221-b35a-e58ba11550ae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-02T16:26:50+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: bfbeeaf5-824a-473b-b093-09b69820ca50 # Red Footer alt text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cd1ade18-213c-4438-aabc-b7e9c0a653a6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-02T16:26:50+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 1f02938c-e395-4f4f-a09a-1679a49ba27f # Red footer aarp image
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6b7d94f4-00ee-479c-ba15-52db547236bc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 015f99d3-49e5-4ff2-90fd-4f98820a00c7
+        userCondition: null
+    thumbFieldKey: null
+handle: redFooterImage
+hasTitleField: false
+icon: null
+name: 'Red Footer Image'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

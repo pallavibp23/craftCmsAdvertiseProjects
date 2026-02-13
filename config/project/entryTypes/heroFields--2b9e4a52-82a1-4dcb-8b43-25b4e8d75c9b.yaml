@@ -1,0 +1,90 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  585cc642-2ddf-46ca-a39b-790adf8e2a92:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-26T02:46:33+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 28a2b87e-5053-4f6b-86e7-c65fff66b218 # Hero Title
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a46e6ea8-4024-411a-a0cf-1ee605f0d0e9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T10:55:17+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 7d37f590-5552-4d74-9de1-1164f8c4ae22 # Hero Subheading
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83e65275-ec20-40a4-b6db-2bd91247b966
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T10:55:17+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: eb465709-0825-4262-9547-b9e4cd56bd52 # Hero Subtext
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 054aa3e4-a121-49b8-a234-4d97ce2dad04
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:10:37+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: c88972a0-e83d-4b26-8410-3c39c1f84466 # hero Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b249be01-0957-46d2-9757-54cae750d695
+            userCondition: null
+            warning: null
+            width: 100
+        name: HeroContent
+        uid: 2d587cc8-1306-49d9-84b1-218602e54a8a
+        userCondition: null
+    thumbFieldKey: null
+handle: heroFields
+hasTitleField: false
+icon: null
+name: 'Hero Fields'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

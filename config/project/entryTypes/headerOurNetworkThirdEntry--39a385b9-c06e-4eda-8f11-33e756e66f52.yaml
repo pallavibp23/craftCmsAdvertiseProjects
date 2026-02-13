@@ -1,0 +1,74 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  5a525980-3866-44d9-af12-b75356f91daf:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-02-03T12:41:52+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 4d73d40b-81ea-41c7-9ab2-015fcd23db38 # Header Our Network Links
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 12883540-9e05-4ecc-9b85-4649bd68cff4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T13:30:29+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 7db60c7a-729e-4f5e-a506-25c2d6843a15 # Header Our Network Third Text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f129a580-28f2-4720-8525-2b9be3a31664
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-03T12:56:27+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 41ef1a64-bd55-4891-b74b-daed9bc6d73e # Header Our Network Third Details
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 073e1b6e-76e8-46fa-abf2-ac3976d72ea5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5c15a6ce-4fbc-40e4-878a-aeb35fad2ed6
+        userCondition: null
+    thumbFieldKey: null
+handle: headerOurNetworkThirdEntry
+hasTitleField: false
+icon: null
+name: 'header our network third entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

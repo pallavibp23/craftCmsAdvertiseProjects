@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: redFooterImageDetails
+instructions: null
+name: 'Red Footer Image Details'
+searchable: false
+settings:
+  createButtonLabel: 'Red Footer Image entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 3dae88f1-2d29-48c6-a854-0e120374ae9e # Red Footer Image
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

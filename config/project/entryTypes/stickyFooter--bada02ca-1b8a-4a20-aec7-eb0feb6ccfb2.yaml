@@ -1,0 +1,90 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  0622f001-82c0-4627-867a-57b0081b75e7:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-28T12:55:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 250a84d6-649b-4b04-86f5-6237c9c2a8b6 # Sticky footer header
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85c8b58d-c800-4bc7-b4f6-0660f2923215
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:55:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: c8303fd4-3db8-4194-8534-aee5011a99cb # Sticky Footer Subtext
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62232c35-48d4-48f4-99d3-39a649b2316c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:55:44+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 24ff8a2d-c634-4c5d-9250-8c8a2789dd3a # Sticky Footer Button
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 86efba7a-7c0b-4d3e-9fb5-457cd4875d4f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:53:59+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: e00eb727-9daf-4e90-9beb-8ce9b670d959 # Sticky Footer Fields
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e4c332d3-fcaf-46b5-a8b6-a102b0ed2157
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5bff9301-f6a0-4f4d-a06a-6743d2da2952
+        userCondition: null
+    thumbFieldKey: null
+handle: stickyFooter
+hasTitleField: false
+icon: null
+name: 'STicky Footer'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

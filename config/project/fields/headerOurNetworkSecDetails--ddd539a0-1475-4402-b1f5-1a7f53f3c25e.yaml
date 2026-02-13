@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: headerOurNetworkSecDetails
+instructions: null
+name: 'Header Our Network Sec Details'
+searchable: false
+settings:
+  createButtonLabel: 'Add Our Network Second Entry'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 92574e93-e45d-4bb1-8f99-cee3114b51e2 # header our network sec entry
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

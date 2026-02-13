@@ -1,0 +1,106 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  9349d262-7c39-4171-acf1-db97501813c4:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-01-28T12:25:40+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 4ca28500-ae9e-4de9-9e9d-f24a68cd4690 # Advertiseimage_Title
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58642649-5854-41e6-a057-6b322e61401b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:25:40+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 498f6188-e21f-45ca-9112-79ca12b3f788 # Advertising_Link
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 98d3ffa5-9235-4ec1-9098-753896525db7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:25:40+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: ff84c699-85ed-49ea-9144-45bf93d31b38 # Advertising_image
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a537f116-5773-4a9a-8d36-4b9bd3a49cbf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:25:40+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 601f8ba4-bf88-4b56-b7ae-a0968e6e05bc # Advertising_text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62e8b4ed-bd1e-4530-bf8f-1c2946bdb629
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-01-28T12:25:40+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 258c8535-df3a-4213-a1db-1f22aa0355cd # Advertise_mid_market
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f7a65906-e12e-424b-9a67-0801bf4985be
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 64843be5-aa04-4637-ad10-411d411799c8
+        userCondition: null
+    thumbFieldKey: null
+handle: advertiseMidrowEntry
+hasTitleField: false
+icon: null
+name: Advertise_midrow_entry
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'
