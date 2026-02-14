@@ -7,3 +7,6 @@
 /web/cpresources/
 
 
+/config/db.php
+/config/test-db.php
+/test-db.php
