@@ -15,7 +15,7 @@ propagationMethod: all
 siteSettings:
   6faf0402-3e78-4423-a460-c26065e6d18c: # advertise
     enabledByDefault: true
-    hasUrls: false
-    template: null
-    uriFormat: null
+    hasUrls: true
+    template: index.twig
+    uriFormat: __home__
 type: single
