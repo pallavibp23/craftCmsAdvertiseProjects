@@ -38,6 +38,7 @@ fieldLayouts:
         name: Content
         uid: f4283ead-5e5c-4ce4-b8f2-7a0ee3a65c17
         userCondition: null
+    thumbFieldKey: null
 fs: assetBaseUrl
 handle: uploads
 name: Uploads

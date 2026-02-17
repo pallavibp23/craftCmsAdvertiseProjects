@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4765f3721877531f65961457208595ac",
+    "content-hash": "f70cc83e5b3652d4a0e9bdb35fc7949b",
     "packages": [
         {
             "name": "99designs/http-signatures",
@@ -9301,6 +9301,51 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "craftcms/craft",
+            "version": "5.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craftcms/craft.git",
+                "reference": "f5fe6a5148d8250110eb7a847c91048411e0b316"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craftcms/craft/zipball/f5fe6a5148d8250110eb7a847c91048411e0b316",
+                "reference": "f5fe6a5148d8250110eb7a847c91048411e0b316",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^5.9.0",
+                "vlucas/phpdotenv": "^5.4.0"
+            },
+            "require-dev": {
+                "craftcms/generator": "^2.0.0",
+                "yiisoft/yii2-shell": "^2.0.3"
+            },
+            "type": "project",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "0BSD"
+            ],
+            "description": "Craft CMS",
+            "homepage": "https://craftcms.com/",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craftcms",
+                "project"
+            ],
+            "support": {
+                "docs": "https://craftcms.com/docs",
+                "email": "support@craftcms.com",
+                "forum": "https://craftcms.stackexchange.com/",
+                "issues": "https://github.com/craftcms/cms/issues",
+                "rss": "https://craftcms.com/changelog.rss",
+                "source": "https://github.com/craftcms/cms"
+            },
+            "time": "2026-01-27T18:39:33+00:00"
+        },
         {
             "name": "craftcms/generator",
             "version": "2.2.0",

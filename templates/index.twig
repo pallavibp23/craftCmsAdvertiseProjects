@@ -68,9 +68,9 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="block group"><a class="block text-lg font-semibold group-hover:text-red duration-200" href="https://advertise.aarp.org/50-insights">50+ Insights</a></li>
-                    <li class="block group"><a class="block text-lg font-semibold group-hover:text-red duration-200" href="https://advertise.aarp.org/aarp-advertising-rates/the-magazine">Rates & Dates</a></li>
-                    <li class="block group"><a class="block text-lg font-semibold group-hover:text-red duration-200" href="https://advertise.aarp.org/aarp-media/digital/ad-specs">Digital Specs</a></li>
+                    {% for headerNormalLink in entry.headernormallinkdetails|default([]) %}
+                        <li class="block group"><a class="block text-lg font-semibold group-hover:text-red duration-200" href="{{ headerNormalLink.headerOurNetworkLinks }}">{{ headerNormalLink.headerOurNetworkText }}</a></li>
+                    {% endfor %}
                 </menu>
             </nav>
             <div class="px-4 flex-shrink-0 w-auto buttons flex items-center z-20">
@@ -106,7 +106,68 @@
                 </a>
             </div>
         </div>
-        <!-- mobile menu omitted for brevity, keep same structure and wrap loops safely -->
+        <div class="mobile-dropdown-menu-container" x-data="{ secondLevel: false }">
+            <div class="mobile-dropdown-menu flex flex-col-reverse justify-between items-start animatable" :class="mobileMenuOpen ? 'active' : ''">
+                <div class="pb-28">
+                    <a href="/contact" class="mobile-contact-button inline-flex items-center bg-red text-white rounded-full p-2 hover:bg-black duration-200">
+                        <span class="inline-block ml-4">Contact Us</span>
+                        <span class="inline-block bg-white text-red p-1 rounded-full ml-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+                                </svg>
+                            </span>
+                    </a>
+                </div>
+                <div class="h-full w-full">
+                    <span class="mobile-back-button" :class="secondLevel ? 'visible' : 'invisible'" @click="secondLevel = false">
+                            <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+                                </svg>
+                            </span>
+                    <span>Back</span>
+                    </span>
+                    <menu class="top-level mb-8" x-show="!secondLevel">
+                        <li class="relative">
+                            <span class="mobile-network-button block" @click="secondLevel = true">
+                            Our Network
+                                <span class="block absolute top-2 right-8">	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+                                </svg>
+                                </span>
+                            </span>
+                        </li>
+                        {% for headerNormalLink in entry.headernormallinkdetails|default([]) %}
+                        <li><a href="{{ headerNormalLink.headerOurNetworkLinks }}">{{ headerNormalLink.headerOurNetworkText }}</a></li>
+                        {% endfor %}
+                    </menu>
+                    <menu class="second-level mb-8" x-show="secondLevel" style="display: none;">
+                        <li><span class="!text-black text-lg font-semibold">Our Network</span></li>
+
+                        {% for heroOurNetworkSec in entry.headerOurNetworkDetails|default([]) %}
+                            {% set link = heroOurNetworkSec.headerOurNetworkLinks %}
+                            {% if link and link.id != entry.id %}
+                                <li>
+                                    <a href="{{ link.url }}" {% if link.target %} target="{{ link.target }}"{% endif %}>{{ heroOurNetworkSec.headerOurNetworkText }}</a>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+
+                        {% for heroOurNetworkSecnSec in entry.headerOurNetworkSecDetails|default([]) %}
+                            <li>
+                                <a href="{{ heroOurNetworkSecnSec.headerOurNetworkLinks }}">{{ heroOurNetworkSecnSec.headerOurNetworkSecText }}</a>
+                            </li>
+                        {% endfor %}
+
+                        {% for heroOurNetworkThirdSec in entry.headerOurNetworkThirdDetails|default([]) %}
+                            <li>
+                                <a href="{{ heroOurNetworkThirdSec.headerOurNetworkLinks }}">{{ heroOurNetworkThirdSec.headerOurNetworkThirdText }}</a>
+                            </li>
+                        {% endfor %}
+                    </menu>
+                </div>
+            </div>
+    </div>
     </div>
 </header>
 
@@ -136,35 +197,128 @@
 
             <!-- Advertising Market -->
             <div class="flex flex-wrap justify-center px-2 pb-12">
-                {% for block in entry.advertisingMarket|default([]) %}
-                    <div class="px-2 w-full md:w-1/3 mb-10">
-                        <a href="{{ block.advertisingLink }}" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
-                            {% set image = block.advertisingImage.one() %}
-                            {% if image %}<img class="hover:scale-110 duration-300" src="{{ image.url }}" alt="{{ block.advertiseimageTitle }}">{% endif %}
-                        </a>
-                        <a href="{{ block.advertisingLink }}" class="h3 pr-4">{{ block.advertisingText }}</a>
-                    </div>
-                {% endfor %}
+                <div class="px-2 w-full md:w-1/3 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/the-magazine" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/189050/OMK-Tiles_ATM-wArc_Drew_8fc0bddcd3f772db468d33181a9fb79c.png" alt="OMK Tiles ATM w Arc Drew">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/the-magazine" class="h3 pr-4">AARP The Magazine</a></div>
+                <div class="px-2 w-full md:w-1/3 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/the-bulletin" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1935/OMK-Tiles_AB-wArc_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="OMK Tiles AB w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/the-bulletin" class="h3 pr-4">AARP Bulletin</a></div>
+                <div class="px-2 w-full md:w-1/3 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/aarp" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1936/OMK-Tiles_AARPdotORG-wArc_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="OMK Tiles AAR Pdot ORG w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/aarp" class="h3 pr-4">AARP.org</a></div>
             </div>
 
             <!-- Mid Market -->
             <div class="flex flex-wrap justify-center px-2 pb-12">
-                {% for midblock in entry.advertiseMidMarket|default([]) %}
-                    <div class="px-2 w-1/2 md:w-1/4 mb-10">
-                        <a href="{{ midblock.advertisingLink }}" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
-                            {% set midimage = midblock.advertisingImage.one() %}
-                            {% if midimage %}<img class="hover:scale-110 transition-all duration-300" src="{{ midimage.url }}" alt="{{ midblock.advertiseimageTitle }}">{% endif %}
-                        </a>
-                        <a href="{{ midblock.advertisingLink }}" class="h3 pr-4">{{ midblock.advertisingText }}</a>
-                    </div>
-                {% endfor %}
+                <div class="px-2 w-1/2 md:w-1/4 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/special-publications" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 transition-all duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1938/OMK-Tiles_SpecialPubs_R1-wArc_8fc0bddcd3f772db468d33181a9fb79c.png" alt="OMK Tiles Special Pubs w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/special-publications" class="h3 pr-4">Special Publications</a></div>
+                <div class="px-2 w-1/2 md:w-1/4 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/native" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 transition-all duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1939/OMK-Tiles_Native-wArc_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="OMK Tiles Native w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/native" class="h3 pr-4">Native</a></div>
+                <div class="px-2 w-1/2 md:w-1/4 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/sponsorships" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 transition-all duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1940/OMK-Tiles_Sponsorship-wArc_R1_8fc0bddcd3f772db468d33181a9fb79c.png" alt="OMK Tiles Sponsorship w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/sponsorships" class="h3 pr-4">Sponsorships</a></div>
+                <div class="px-2 w-1/2 md:w-1/4 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/newsletters" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 transition-all duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1941/OMK-Tiles_Newsletters_R1-wArc_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="OMK Tiles Newsletters R1 w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/newsletters" class="h3 pr-4">Newsletters</a></div>
+                <div class="px-2 w-1/2 md:w-1/4 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/first-party-data" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 transition-all duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1946/OMK-Tiles_FirstPartyData-wArc_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="OMK Tiles First Party Data w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/first-party-data" class="h3 pr-4">First-Party Data Targeting</a></div>
+                <div class="px-2 w-1/2 md:w-1/4 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/video" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 transition-all duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1947/OMK-Tiles_Video-R2-wArc_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="OMK Tiles Video R2 w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/video" class="h3 pr-4">Video</a></div>
+                <div class="px-2 w-1/2 md:w-1/4 mb-10">
+                    <a href="https://advertise.aarp.org/aarp-media/mobile-app" target="_blank" class="block overflow-hidden rounded-3xl mb-4">
+                        <img class="hover:scale-110 transition-all duration-300" src="https://advertise.aarp.org/assets/i/miscellaneous/1948/OMK-Tiles_MobileApp-wArc_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="OMK Tiles Mobile App w Arc">
+                    </a>
+                    <a href="https://advertise.aarp.org/aarp-media/mobile-app" class="h3 pr-4">Mobile App</a></div>
             </div>
         </div>
     </section>
-
-    <!-- Additional Sections, Images, Footer -->
-    <!-- All other sections can be rewritten in same safe pattern with |default([]) and .one() usage -->
-
+    <section class="bg-gradient pt-12 md:pt-24">
+        <div class="mx-auto max-w-5xl">
+            <div class="flex flex-wrap pb-4 ">
+                <div class="w-full md:w-5/12 px-2">
+                    <div class="overflow-hidden rounded-3xl mb-4 md:mb-0">
+                        <img src="https://advertise.aarp.org/assets/i/miscellaneous/2257/Friends_Birthday_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="Friends Birthday"></div>
+                </div>
+                <div class="w-full md:w-7/12 px-2">
+                    <div class="border border-red-wine rounded-3xl h-full px-12 pt-12 md-prose">
+                        <h2 class="!text-red-wine max-w-xs pb-4 border-b border-red-wine !mb-6">Right Time.</h2>
+                        <p>When adults 50+ join AARP, they are embracing their new life stage and seeking the support they immediately receive from AARP’s media channels – an instant bond that results in industry-leading engagement and <span class="text-red">high receptivity to brands that meet members’ needs</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap pb-4 md:flex-row-reverse">
+                <div class="w-full md:w-5/12 px-2">
+                    <div class="overflow-hidden rounded-3xl mb-4 md:mb-0">
+                        <img src="https://advertise.aarp.org/assets/i/miscellaneous/2258/Couple_Boating_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="Couple Boating"></div>
+                </div>
+                <div class="w-full md:w-7/12 px-2">
+                    <div class="border border-red rounded-3xl h-full px-12 pt-12 md-prose">
+                        <h2 class="!text-red max-w-xs pb-4 border-b border-red !mb-6">Right Audience.</h2>
+                        <p>AARP members are <span class="text-red">highly motivated</span> to live their best lives and financially empowered to do so – an audience ideally positioned to buy new products and services and massive enough to <span class="text-red">change your business</span>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap pb-4 ">
+                <div class="w-full md:w-5/12 px-2">
+                    <div class="overflow-hidden rounded-3xl mb-4 md:mb-0">
+                        <img src="https://advertise.aarp.org/assets/i/miscellaneous/2259/Couple_Tablet_8fc0bddcd3f772db468d33181a9fb79c.jpg" alt="Couple Tablet"></div>
+                </div>
+                <div class="w-full md:w-7/12 px-2">
+                    <div class="border border-gray rounded-3xl h-full px-12 pt-12 md-prose">
+                        <h2 class="!text-gray max-w-xs pb-4 border-b border-gray !mb-6">Right Brand.</h2>
+                        <p><span class="block text-red text-8xl">91<sup class="text-5xl">%<sup></sup></sup></span></p>
+                        <p>of members <span class="text-red">trust AARP Media more</span> than other media. Unmatched trust in the AARP brand translates to <span class="text-red">increased brand consideration and consumer action</span> for advertisers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap pb-4">
+                <div class="w-full px-2">
+                    {% for advNetworkblock in entry.mediaAdvertisingNetworkDetails|default([]) %}
+                        <div class="bg-white rounded-3xl pl-12 pr-10 pt-10 pb-4">
+                            <h2 class="h2 !text-red">{{ advNetworkblock.mediaAdvertisingNetworkHeading }}</h2>
+                            <div class="flex flex-wrap items-center">
+                                <div class="w-full md:flex-1 md:w-auto md-prose">
+                                    <p>{{ advNetworkblock.mediaAdvertisingNetworkText }}</p>
+                                </div>
+                                <div class="w-full md:flex-shrink-0 md:w-auto mb-8 px-8">
+                                    <a href="{{ advNetworkblock.mediaAdvertisingNetworkReachLink }}" class="inline-flex items-center bg-red text-white rounded-full p-2 hover:bg-black duration-200">
+                                        <span class="inline-block ml-4">{{ advNetworkblock.mediaAdvertisingNetworkReachText }}</span>
+                                        <span class="inline-block bg-white text-red p-1 rounded-full ml-4 lg:ml-16">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>
+        </svg></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <img class="w-full object-cover max-h-[850px]" src="https://advertise.aarp.org/uploads/footer-image.jpg" alt="Footer Image">
 </main>
 
 <footer class="main-footer bg-red py-16">

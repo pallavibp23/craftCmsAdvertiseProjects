@@ -23,7 +23,6 @@ settings:
   restrictedLocationSource: 'volume:df8d8880-9bb7-4c12-bc9a-8dd92f606b02' # Uploads
   restrictedLocationSubpath: null
   selectionLabel: 'Upload market image'
-  showCardsInGrid: false
   showSearchInput: true
   showSiteMenu: false
   showUnpermittedFiles: false

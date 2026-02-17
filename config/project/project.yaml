@@ -1,4 +1,4 @@
-dateModified: 1771044364
+dateModified: 1771308934
 email:
   fromEmail: pallavi@targetclose.com
   fromName: advertise
@@ -11,6 +11,10 @@ fs:
       path: $ASSET_BASE_PATH
     type: craft\fs\Local
     url: $ASSET_BASE_URL
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     1f02938c-e395-4f4f-a09a-1679a49ba27f: 'Red footer aarp image' # Red footer aarp image
