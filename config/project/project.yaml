@@ -1,4 +1,4 @@
-dateModified: 1771311412
+dateModified: 1771323163
 email:
   fromEmail: pallavi@targetclose.com
   fromName: advertise
@@ -31,6 +31,7 @@ meta:
     7d37f590-5552-4d74-9de1-1164f8c4ae22: 'Hero Subheading' # Hero Subheading
     7db60c7a-729e-4f5e-a506-25c2d6843a15: 'Header Our Network Third Text' # Header Our Network Third Text
     8b68ffb1-4be9-47e1-b10a-3db109c18e3e: 'Header Our Network Sec Text' # Header Our Network Sec Text
+    18b7bfb3-97d0-4df8-bf04-95edcd6574a5: headerNormalLink # headerNormalLink
     24ff8a2d-c634-4c5d-9250-8c8a2789dd3a: 'Sticky Footer Button' # Sticky Footer Button
     28a2b87e-5053-4f6b-86e7-c65fff66b218: 'Hero Title' # Hero Title
     39a385b9-c06e-4eda-8f11-33e756e66f52: 'header our network third entry' # header our network third entry
@@ -40,6 +41,7 @@ meta:
     155fbe6b-a130-4244-8876-05e99cba9cff: 'Media Advertising Network Reach Link' # Media Advertising Network Reach Link
     250a84d6-649b-4b04-86f5-6237c9c2a8b6: 'Sticky footer header' # Sticky footer header
     258c8535-df3a-4213-a1db-1f22aa0355cd: Advertise_mid_market # Advertise_mid_market
+    340e7849-8b7f-42cf-9946-efee989cd8e9: headerNormalLinkDetails # headerNormalLinkDetails
     405faaa1-74e9-4ac2-b942-bbb555eb8402: 'Red Footer links' # Red Footer links
     498f6188-e21f-45ca-9112-79ca12b3f788: Advertising_Link # Advertising_Link
     601f8ba4-bf88-4b56-b7ae-a0968e6e05bc: Advertising_text # Advertising_text
