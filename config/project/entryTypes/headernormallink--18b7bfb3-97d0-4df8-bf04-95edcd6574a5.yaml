@@ -1,0 +1,58 @@
+allowLineBreaksInTitles: false
+color: null
+description: null
+fieldLayouts:
+  9adc47b2-8add-4d36-b7c2-ccb1b6d19dbf:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2026-02-17T06:50:15+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 4d73d40b-81ea-41c7-9ab2-015fcd23db38 # Header Our Network Links
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80bae98c-ca4c-42fa-b916-c733e7a24a2d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2026-02-17T06:50:15+00:00'
+            editCondition: null
+            elementCondition: null
+            elementEditCondition: null
+            fieldUid: 8b68ffb1-4be9-47e1-b10a-3db109c18e3e # Header Our Network Sec Text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 665ba36d-baaf-4e44-b4fb-472707515a93
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e60d5226-7748-42b6-87b1-95400e8252fb
+        userCondition: null
+    thumbFieldKey: null
+handle: headernormallink
+hasTitleField: false
+icon: null
+name: headerNormalLink
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+uiLabelFormat: '{title}'

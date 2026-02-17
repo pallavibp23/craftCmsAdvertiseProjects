@@ -1,0 +1,29 @@
+columnSuffix: null
+handle: headernormallinkdetails
+instructions: null
+name: headerNormalLinkDetails
+searchable: false
+settings:
+  createButtonLabel: 'Add Header Link dtails'
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 18b7bfb3-97d0-4df8-bf04-95edcd6574a5 # headerNormalLink
+        -
+          - group
+          - General
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
